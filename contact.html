@@ -8,26 +8,26 @@
     </head>
     <body>
         <header>
-            <div>Damian Ruiz</div>
+            <div class="logo">Damian Ruiz</div>
             <nav>
                 <ul>
                     <li><a href="">About</a></li>
                     <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a class="active"  href="">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <div>
+        <div class="main">
             <h1>Contact</h1>
             <hr>
             <form id="contact-form" action="#">
                 <fieldset>
                     <label for="name">Name<br></label>
-                    <input id="name" type="text" name="full-name" placeholder="Jane Doe" required>
+                    <input id="name" type="text" name="full-name" placeholder="Jane Doe" required><br>
                     <label for="email">Email<br></label>
-                    <input id="email" type="email" name="email-address" placeholder="name@domain.com" required>
+                    <input id="email" type="email" name="email-address" placeholder="name@domain.com" required><br>
                     <label for="message">Message<br></label>
-                    <input id="message" type="text" name="contact-message" placeholder="Write your message here" required>
+                    <input id="message" type="text" name="contact-message" required><br>
                     <input id="submit" type="submit">
                 </fieldset>
             </form>
