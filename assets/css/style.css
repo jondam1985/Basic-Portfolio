@@ -111,10 +111,10 @@ footer {
     overflow: hidden;
     background-color:#666666;
     height: 50px;
-    width: 100vw;;
+    width: 100%;;
     text-align: center;
     position: relative;
-    bottom: -70px;
+    bottom: -93px;
     padding-top: 15px;
     border-top: 4px solid #4aaaa5;
     z-index: 200;
