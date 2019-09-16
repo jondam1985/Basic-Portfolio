@@ -101,16 +101,20 @@ hr {
     margin-bottom: 15px;
 }
 
+.contain-all {
+    min-height: calc(100vh-50px);
+}
+
 footer {
     box-sizing: border-box;
     clear: both;
-    overflow: auto;
+    overflow: hidden;
     background-color:#666666;
     height: 50px;
     width: 100vw;;
     text-align: center;
-    position: fixed;
-    top: calc(100vh - 50px);
+    position: relative;
+    bottom: -70px;
     padding-top: 15px;
     border-top: 4px solid #4aaaa5;
     z-index: 200;
